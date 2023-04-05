@@ -1,0 +1,50 @@
+body, ul, li, pi[
+    margin: 0px;
+    padding: 0px;
+    list-style: none; /* tira a marcação do link (bolinha por exemplo) */
+    font-size: 1.2rem;
+    font-family: arial;
+]
+
+/* Define o tamanho da imagem do logo - largura */
+.logo {
+    width: 200px;
+
+}
+
+/* Define as características da TAG ancor */
+a{
+
+text-decoration: none;      /* tira o sublinhado do link */ 
+color: white;             /* cor do texto */
+}
+
+/* Define as características do header */
+
+.header[
+/* Cor de fundo */
+background-color: black; 
+/* display flexível */
+display: flex;
+/* Organizado em linha */ 
+flex-wrap: wrap;
+/* Espaçamento entre os textos */ 
+justify-content: space-between;
+/* centralizado */
+align-items: center;
+/* "marca interna" */
+padding: 20px;
+]
+ 
+    .menu[
+        display: flex;
+    ]
+
+    /* dostância entre as palvras do link */
+    .menu li[
+        margin-left: 10px;
+    ] 
+
+    .menu li a[
+        
+    ]

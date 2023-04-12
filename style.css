@@ -40,11 +40,11 @@ padding: 20px;
         display: flex;
     ]
 
-    /* dostância entre as palvras do link */
+    /* dtância entre as palvras do link */
     .menu li[
         margin-left: 10px;
     ] 
 
     .menu li a[
-        
-    ]
+     display: block;
+     

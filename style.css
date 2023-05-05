@@ -1,50 +1,98 @@
-body, ul, li, pi[
+body, ul, li, p{
     margin: 0px;
-    padding: 0px;
-    list-style: none; /* tira a marcação do link (bolinha por exemplo) */
+    padding: 0;
+    list-style: none;  /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
-    font-family: arial;
-]
+    font-family: Arial, Helvetica, sans-serif;
 
-/* Define o tamanho da imagem do logo - largura */
-.logo {
+}
+
+.logo{
     width: 200px;
-
 }
 
-/* Define as características da TAG ancor */
 a{
-
-text-decoration: none;      /* tira o sublinhado do link */ 
-color: white;             /* cor do texto */
+    text-decoration: none;
+    color: white;
 }
 
-/* Define as características do header */
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
-.header[
-/* Cor de fundo */
-background-color: black; 
-/* display flexível */
-display: flex;
-/* Organizado em linha */ 
-flex-wrap: wrap;
-/* Espaçamento entre os textos */ 
-justify-content: space-between;
-/* centralizado */
-align-items: center;
-/* "marca interna" */
-padding: 20px;
-]
- 
-    .menu[
-        display: flex;
-    ]
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
 
-    /* dtância entre as palvras do link */
-    .menu li[
-        margin-left: 10px;
-    ] 
+}
 
-    .menu li a[
-     display: block;
-     
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.imagem{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
+
+}
+.legenda{
+    text-align: center;
+    padding: 5px;
+}
+
+.texto{
+    width: 100vh;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.flex{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+.paragrafo{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleways', sans-serif;
+    color: rgb(46, 46, 180)
+}
+.footer{
+    background-color: rgb(241, 234, 234);
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redeLogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+}
